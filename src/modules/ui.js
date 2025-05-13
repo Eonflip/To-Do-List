@@ -1,11 +1,16 @@
 import '../styles.css';
+import createTaskList from './tasklist';
 
 function createUI() {
     createHeader();
     createFooter();
     createSidebar();
+    createTaskList();
 }
 
+
+
+// Basic UI elements for setup
 function createHeader() {
     const headerDiv = document.createElement("div");
     const header = document.createElement("h1");
@@ -32,6 +37,9 @@ function createSidebar() {
     sidebarDiv.classList.add("sidebar");
     document.body.appendChild(sidebarDiv);
 }
+
+
+
 
 
 export default createUI;
