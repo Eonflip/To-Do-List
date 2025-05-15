@@ -1,11 +1,17 @@
-export default function createTaskList() {
+import createTask from "./tasks";
+
+function createTaskList() {
     const taskListDiv = document.createElement("div");
     const taskList = document.createElement("ul");
-    const testTask = document.createElement("li");
-    testTask.classList.add("task");
-    testTask.textContent = "Test Task";
-    taskList.appendChild(testTask);
     taskListDiv.appendChild(taskList);
-    taskList.classList.add("task-list");
+    taskListDiv.classList.add("task-list");
     document.body.appendChild(taskListDiv);
+
+    const addTaskButton = document.createElement("button");
+    addTaskButton.textContent = "Add";
+    addTaskButton.classList.add("add-task-button");
+    taskListDiv.appendChild(addTaskButton);
 }
+
+export default createTaskList;
+
