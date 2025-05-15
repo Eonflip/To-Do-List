@@ -23,7 +23,6 @@ function createHeader() {
 function createFooter() {
     const footerDiv = document.createElement("div");
     const footer = document.createElement("p");
-    footer.innerHTML = '<a href="https://github.com/eonflip">Github</a>';
     footerDiv.appendChild(footer);
     footer.classList.add("footer");
     document.body.appendChild(footerDiv);
