@@ -16,6 +16,7 @@ body {
     min-height: 100vh;
 }
 
+/*
 .header {
     background-color: rgb(9, 151, 194);
     text-align: center;
@@ -26,6 +27,8 @@ body {
     width: 100%;
     grid-area: header;
 }
+*/
+
 
 .sidebar {
     background-color: rgb(194, 151, 9);
@@ -90,4 +93,18 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 80%;
+}
+
+.add-task-button {
+    background-color: rgb(19, 182, 52);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+    bottom: 5%;
+    left: 40%;
+    width: 20%;
+    border: 1px solid black;
+
 }
