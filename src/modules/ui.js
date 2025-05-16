@@ -1,11 +1,13 @@
 import '../styles.css';
 import createTaskList from './tasklist';
+import createProjectList from './projectlist';
 
 function createUI() {
     createHeader();
     createFooter();
     createSidebar();
     createTaskList();
+    createProjectList();
 }
 
 

@@ -4,7 +4,7 @@ function createTask() {
     task.textContent = "Task";
     taskDiv.appendChild(task);
     taskDiv.classList.add("task");
-    document.body.appendChild(taskDiv);
+    document.querySelector(".task-list").appendChild(taskDiv);
 }
 
 export default createTask;
