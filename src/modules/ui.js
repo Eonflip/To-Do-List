@@ -37,8 +37,8 @@ function createSidebar() {
     sidebarDiv.appendChild(sidebar);
     sidebarDiv.classList.add("sidebar");
     document.body.appendChild(sidebarDiv);
-}
 
+}
 
 
 

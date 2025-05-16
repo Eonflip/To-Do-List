@@ -6,7 +6,7 @@ function createTaskList() {
     document.body.appendChild(taskListDiv);
 
     const addTaskButton = document.createElement("button");
-    addTaskButton.textContent = "Add";
+    addTaskButton.textContent = "Add Task";
     addTaskButton.classList.add("add-task-button");
     taskListDiv.appendChild(addTaskButton);
 
