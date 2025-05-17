@@ -118,6 +118,24 @@ body {
     gap: 1rem;
 }
 
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+}
+
+.project {
+    background-color: rgb(19, 114, 182);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
 .add-project-button {
     background-color: rgb(19, 182, 52);
     color: white;
